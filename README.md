@@ -1,8 +1,16 @@
 # Speech-to-Text (S2T) Modeling
 
-[https://www.aclweb.org/anthology/2020.aacl-demo.6](https://www.aclweb.org/anthology/2020.aacl-demo.6.pdf)
-
 Speech recognition (ASR) and speech-to-text translation (ST) with fairseq.
+
+## Dependencies
+```
+PyTorch
+Tensorflow
+Argparse
+Numpy
+Transformer
+Tokenizer
+```
 
 ## Data Preparation
 S2T modeling data consists of source speech features, target text and other optional information
